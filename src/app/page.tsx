@@ -64,9 +64,9 @@ export default function Home() {
           title="Understanding Meme Economy"
           description="Explore the unique tokenomics of meme-based ventures."
           kpiItems={[
-            { value: "250K", description: "Total Memes Created", icon: { type: 'LucideIconName' } },
-            { value: "30K", description: "Active Users", icon: { type: 'LucideIconName' } },
-            { value: "10%", description: "Monthly Growth", icon: { type: 'LucideIconName' } },
+            { value: "250K", description: "Total Memes Created", icon: { icon: "LucideIconName" } },
+            { value: "30K", description: "Active Users", icon: { icon: "LucideIconName" } },
+            { value: "10%", description: "Monthly Growth", icon: { icon: "LucideIconName" } },
           ]}
         />
       </div>
