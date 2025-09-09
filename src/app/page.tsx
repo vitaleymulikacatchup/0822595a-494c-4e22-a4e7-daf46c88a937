@@ -8,6 +8,7 @@ import ImageFAQ from '@/components/sections/layouts/faq/ImageFAQ';
 import HowToBuy2D from '@/components/sections/layouts/howtobuy/2DHTB';
 import PatternTokenomics from '@/components/sections/layouts/tokenomics/PatternTokenomics';
 import FooterBase from '@/components/footer/FooterBase';
+import { CheckCircle } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -29,8 +30,6 @@ export default function Home() {
           { name: "Footer", id: "footer" },
         ]}
         defaultSelectorValue="hero"
-        className="" 
-        enableScrollDetection={true}
       />
       <div id="hero" data-section="hero" className="scroll-mt-24">
         <FrameHero
@@ -64,9 +63,9 @@ export default function Home() {
           title="Understanding Meme Economy"
           description="Explore the unique tokenomics of meme-based ventures."
           kpiItems={[
-            { value: "250K", description: "Total Memes Created", icon: { icon: "LucideIconName" } },
-            { value: "30K", description: "Active Users", icon: { icon: "LucideIconName" } },
-            { value: "10%", description: "Monthly Growth", icon: { icon: "LucideIconName" } },
+            { value: "250K", description: "Total Memes Created", icon: CheckCircle },
+            { value: "30K", description: "Active Users", icon: CheckCircle },
+            { value: "10%", description: "Monthly Growth", icon: CheckCircle },
           ]}
         />
       </div>
